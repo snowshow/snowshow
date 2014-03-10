@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    
+    <title>Documentation</title>
+    <meta name="description" content="" />
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="MobileOptimized" content="320" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    
+    <link rel="stylesheet" href="assets/css/ghostion.min.css" />
+
+    
+    <!-- <link rel="stylesheet" href="/assets/css/ghostion.custom.css" /> -->
+
+    
+    <meta name="generator" content="Ghost 0.4" />
+<link rel="alternate" type="application/rss+xml" title="Big Test" href="rss/index.html">
+<link rel="canonical" href="http://www.cloud.codeart.pro:2368/documentation/" />
+</head>
+<body class="post-template page">
+    <div id="at_page_surround">
+        <div id="at_body">
+            
+
+
+<div class="left-off-canvas-menu">
+	<ul class="off-canvas-list">
+		<li><label>Main Menusss</label></li>
+		<li><a class="at_menu_item" href="http://www.cloud.codeart.pro:2368"><span class="fa fa-home"></span> Home</a></li>
+		<li><a class="at_menu_item" href="http://www.cloud.codeart.pro:2368/about"><span class="fa fa-bar-chart-o"></span> About</a></li>
+		<li><a class="at_menu_item" href="http://www.cloud.codeart.pro:2368/typography"><span class="fa fa-file-text"></span> Typography</a></li>
+		<li><a class="at_menu_item" href="http://www.cloud.codeart.pro:2368/documentation"><span class="fa fa-book"></span> Documentation</a></li>
+		<li><a class="at_menu_item" href="http://www.cloud.codeart.pro:2368/faq"><span class="fa fa-question-circle"></span> FAQ</a></li>
+		<li><a class="at_menu_item" href="https://github.com/axiantheme/ghostion/archive/master.zip"><span class="fa fa-cloud-download"></span> Download</a></li>
+	</ul>
+</div>
+
+
+<div id="at_header">
+    <div class="row">
+        <div class="medium-4 columns">
+            <div class="at_logo_container">
+                
+                    <a href="http://www.cloud.codeart.pro:2368"><img class="at_logo_img" src="content/images/2014/Mar/m_x_g.png" alt="Big Test" />
+                    
+                    <span class="at_logo_text">Big Test</span></a>
+            </div>
+        </div>
+        <div class="medium-4 columns text-right hide-for-small-only">
+            <div class="at_icon_menu">
+                <a class="at_icon_menu_item" href="http://www.cloud.codeart.pro:2368/kuku" data-tooltip class="has-tip" title="Abouto."><span class="fa fa-bar-chart-o"></span></a>
+                <a class="at_icon_menu_item" href="http://www.cloud.codeart.pro:2368/typography" data-tooltip class="has-tip" title="Typography"><span class="fa fa-file-text"></span></a>
+                <a class="at_icon_menu_item" href="http://www.cloud.codeart.pro:2368/documentation" data-tooltip class="has-tip" title="Documentation"><span class="fa fa-book"></span></a>
+                <a class="at_icon_menu_item" href="http://www.cloud.codeart.pro:2368/faq" data-tooltip class="has-tip" title="Frequently Asked Questions"><span class="fa fa-question-circle"></span></a>
+                <a class="at_icon_menu_item" href="https://github.com/axiantheme/ghostion/archive/master.zip" data-tooltip class="has-tip" title="Download"><span class="fa fa-cloud-download"></span></a>
+            </div>
+        </div>
+        <div class="medium-4 columns">
+            <div id="at_search">
+	<div class="row">
+		<div class="large-12 large-centered columns">
+			<input class="at_search_input" type="text" placeholder="Search...">
+		</div>
+	</div>
+	<div class="at_search_results"></div>
+</div>
+        </div>
+    </div>
+</div>
+
+
+<div id="at_showcase">
+	<div class="at_blog_cover" style="background-image: url(content/images/2014/Mar/IMG_0081_ban.jpg)">
+	    <div class="at_showcase_overlay at_with_blog_cover">
+			<div class="row">
+				<div class="large-12 large-centered columns">
+					<div class="at_block">
+						<div class="text-center">
+				            
+				            <div class="at_block">
+				                <article class="post page">
+				                    <div class="at_post_header">
+				                        <h2 class="at_post_title">Documentation</h2>
+				                    </div>
+				                </article>
+				            </div>
+				            
+						</div>
+					</div>
+				</div>
+			</div>
+	    </div>
+	</div>
+</div>
+
+
+<div id="at_mainbody" class="at_post" role="main">
+    <div class="row">
+        <div class="large-12 columns">
+            
+            <div class="at_block">
+                <article class="post page">
+                    <div class="at_post_content">
+                        <h2 id="gettingstartedwithghostiontheme">Getting Started with Ghostion Theme</h2>
+
+<p>Getting started with Ghostion theme is very easy. Whether you are just a blogger without coding knowledge or even master of HTML, CSS or JavaScript, we've got you covered.</p>
+
+<h3 id="ageneralbasicusage">A. General Basic Usage</h3>
+
+<p>The following steps will guide you how to configure Ghostion for your blog and customize it without needing to get your hand dirty to touch the SCSS and the theme file structure.</p>
+
+<h4 id="1thefilestructureofghostiontheme">1. The File Structure of Ghostion Theme</h4>
+
+<p>Ghostion is a lightweight and speed optimized theme for Ghost. Ghostion theme gets Grade A for both PageSpeed and YSlow reported by <a href="http://gtmetrix.com/reports/ghostion.axiantheme.com/bSAyuxfk">GTmetrix</a>.</p>
+
+<p>Below is the file structure of Ghostion theme:</p>
+
+<pre><code>├── assets
+│   ├── css
+│   │   ├── ghostion.custom.css
+│   │   └── ghostion.min.css
+│   ├── fonts
+│   │   └── fontawesome
+│   │       ├── fontawesome-webfont.eot
+│   │       ├── fontawesome-webfont.svg
+│   │       ├── fontawesome-webfont.ttf
+│   │       └── fontawesome-webfont.woff
+│   ├── img
+│   │   └── showcase_pattern.png
+│   └── js
+│       ├── ghostion.min.js
+│       └── jquery-2.1.0.min.js
+├── partials
+│   ├── all_page
+│   │   ├── at_footer.hbs
+│   │   ├── at_header.hbs
+│   │   └── at_off_canvas.hbs
+│   ├── home_page
+│   │   ├── at_mainbody.hbs
+│   │   ├── at_showcase.hbs
+│   │   └── at_top.hbs
+│   ├── pagination.hbs
+│   ├── post_page
+│   │   ├── at_mainbody.hbs
+│   │   └── at_showcase.hbs
+│   ├── static_page
+│   │   ├── at_mainbody.hbs
+│   │   └── at_showcase.hbs
+│   └── widgets
+│       ├── at_disqus.hbs
+│       └── at_search.hbs
+├── default.hbs
+├── index.hbs
+├── page.hbs
+├── post.hbs
+└── README.md
+</code></pre>
+
+<h4 id="2ghostionthemeinstallation">2. Ghostion Theme Installation</h4>
+
+<p>This documentation is intended to help you properly install and configure Ghostion for your Ghost blog. Check the following step-by-step instructions on how to perform a manual Ghostion theme installation.</p>
+
+<ol>
+<li>Download <strong>Ghostion</strong> master file from <a href="https://github.com/axiantheme/ghostion/archive/master.zip">GitHub</a>.  </li>
+<li>Unzip the files and go to <code>ghostion-master/releases/themes</code> directory. You will see <strong>ghostion.zip</strong> inside this directory.  </li>
+<li>Unzip <strong>ghostion.zip</strong> and copy the folder into your Ghost theme directory <code>/content/themes</code>.  </li>
+<li>At the moment, Ghost won't notice that you've added a new folder to <code>content/themes</code> directory, so you'll need to restart it.  </li>
+<li>After restart, login to your Ghost dashboard and navigate to <strong>Settings - General</strong>.  </li>
+<li>Select <strong>ghostion</strong> name in the <strong>Theme</strong> options dropdown.  </li>
+<li>Click <strong>Save</strong>. That's all.  </li>
+<li>Visit the frontend of your blog and marvel at the new <strong>Ghostion</strong> theme.</li>
+</ol>
+
+<h4 id="3changingthelogo">3. Changing the Logo</h4>
+
+<p>We provide the editable logo source in <code>ghostion-master/releases/sources</code>. You can edit the logo with Adobe Fireworks / Photoshop, or you can also use your own logo. Then, you can upload the new logo via your Ghost dashboard <strong>Settings - General - Blog Logo</strong>.</p>
+
+<h4 id="4initialconfiguration">4. Initial Configuration</h4>
+
+<p>There are 4 variables you might want to set for your Ghostion blog. Inside your Ghostion theme folder, find <code>/ghostion/default.hbs</code>. You will see the following content at the bottom.</p>
+
+<pre><code>/*** CONFIGURATION VARIABLES: EDIT THE VALUES BELOW FOR THEME CONFIGURATION ***/
+var ghostionConfig = {  
+    site_url:                       "ghostion.ghostdemo.axiantheme.com",
+    google_fonts_family:            "Open+Sans:400,400italic,700,700italic",
+    google_analytics_tracking_id:   "UA-45630355-2",
+    disqus_shortname:               "ghostion"
+};
+</code></pre>
+
+<h6 id="site95url">site&#95;url</h6>
+
+<p>Put your site url here without <code>http://</code>, for example: <code>www.my-ghost-blog.com</code>.</p>
+
+<h6 id="google95fonts95family">google&#95;fonts&#95;family</h6>
+
+<p>Ghostion supports <a href="http://www.google.com/fonts">Google Fonts</a> and you can change the default OpenSans font with any font you like, for example: <code>Noto+Sans:400,400italic,700,700italic</code>.</p>
+
+<h6 id="google95analytics95tracking95id">google&#95;analytics&#95;tracking&#95;id</h6>
+
+<p>Put your <a href="https://support.google.com/analytics/answer/1032385">Google Analitycs</a> account identifier here.</p>
+
+<h6 id="disqus95shortname">disqus&#95;shortname</h6>
+
+<p>Replace <code>ghostion</code> with your own <a href="http://help.disqus.com/customer/portal/articles/466208">Disqus</a> unique identifier</p>
+
+<p>Your initial configuration is done and you are ready to use Ghostion on your Ghost blog now.</p>
+
+<h4 id="5basiccsscustomization">5. Basic CSS Customization</h4>
+
+<p>You can skip this step if you are happy with the default color or style of Ghostion. However, if you would like to do some minor change, you can use the custom stylesheet.</p>
+
+<p>The following guide will take you through the steps needed to load the custom stylesheet:</p>
+
+<p>1 - Inside your Ghostion theme folder, find the following code in <code>/ghostion/default.hbs</code>.</p>
+
+<pre><code>    {{! Remove the &lt;!-- --&gt; below to load the custom stylesheet }}
+    &lt;!-- &lt;link rel="stylesheet" href="/assets/css/ghostion.custom.css" /&gt; --&gt;
+</code></pre>
+
+<p>2 -  Remove the <code>&lt;!-- --&gt;</code> block to make your theme load the <code>ghostion.custom.css</code> file.</p>
+
+<p>3 -  Inside your Ghostion theme folder, find <code>/ghostion/assets/css/ghostion.custom.css</code>. You can add your custom rules and properties in that stylesheet.</p>
+
+<p>For example, if you want to change the <code>showcase</code> background color, in your <strong>ghostion.custom.css</strong> you can put the following code.</p>
+
+<pre><code>#at_showcase .at_showcase_overlay {background-color: #D53F35;}
+</code></pre>
+
+<h3 id="bdemobuilder">B. DemoBuilder</h3>
+
+<p>If you want to replicate the Ghostion demo site, there are 2 ways to do this, by using <strong>GhostData</strong> or <strong>SamplePages</strong>. We provide the data source we use on Ghostion demo side inside <code>ghostion-master/releases/demobuilder</code> directory. Unzip <strong>ghostion_demobuilder.zip</strong> and you will see two folders inside, <strong>GhostData</strong> and <strong>SamplePages</strong>.</p>
+
+<h4 id="1ghostdata">1. GhostData</h4>
+
+<p>Inside the <strong>GhostData</strong> folder, you will see <strong>GhostData.json</strong> which contains the Ghostion demo blog settings and data, including the posts and the user.</p>
+
+<p>Please note that, GhostData must be installed on <strong>new</strong> Ghost installation, and not over an existing Ghost blog as it will remove your previous posts and all other configurations.</p>
+
+<p>To import <strong>GhostData.json</strong> to your <strong>new</strong> Ghost installation, please follow these steps:</p>
+
+<p>1 - Navigate to <code>http://www.my-blog-site.com/ghost/debug/</code>. Please replace <strong>www.my-blog-site.com</strong> with your actual site url. You might need to login with your administrator details.</p>
+
+<p><img src="http://ghostdemo.axiantheme.com/ghostion/demo/ghostdata.jpg" alt="GhostData" /></p>
+
+<p>2 - Press the red <strong>Delete</strong> button. This will delete all posts and tags from your Ghost database.</p>
+
+<p>3 - Now, browse <strong>GhostData.json</strong> and press <strong>Import</strong> button, to load all Ghostion demo data and configurations.</p>
+
+<h4 id="2samplepages">2. SamplePages</h4>
+
+<p>Inside the <strong>SamplePages</strong> folder, you will find <strong>static&#95;pages</strong> and <strong>post&#95;pages</strong> folders. The <strong>static&#95;pages</strong> folder contains all MarkDown files for the Ghostion demo Static Pages and <strong>post&#95;pages</strong> folder contains the demo content for the regular blog posts.</p>
+
+<pre><code>├── post_pages
+│   ├── article_1.md
+│   ├── article_2.md
+│   ├── article_3.md
+│   ├── article_4.md
+│   ├── article_5.md
+│   └── article_6.md
+└── static_pages
+    ├── about.md
+    ├── documentation.md
+    ├── faq.md
+    └── typography.md
+</code></pre>
+
+<p>You just need to copy and paste the MarkDown content to your Ghost blog via administrator dashboard. You can use this method on your existing site because there is no existing data removal in this process.</p>
+
+<h3 id="cghostioncustomizationfordeveloper">C. Ghostion Customization for Developer</h3>
+
+<p>If you are theme developer or would like to heavily customized Ghostion theme, this section is for you. We provide our custom <strong>command line tool</strong> <code>ghostion.sh</code> to speed up your customization.</p>
+
+<p>The following steps will guide you how to start developing and customizing Ghostion theme.</p>
+
+<h4 id="1developmentfilesstructure">1. Development Files Structure</h4>
+
+<p>All the scss and JavaScript source files are located inside <code>ghostion-master/dev/src</code> directory. Generally, what you would like to add, edit, or remove are:</p>
+
+<ul>
+<li>the JavaScripts located at <code>ghostion-master/dev/src/js</code> directory</li>
+<li>the theme main scss files in <code>ghostion-master/dev/src/scss/theme</code> directory</li>
+</ul>
+
+<pre><code>├── dest
+│   ├── css
+│   │   └── ghostion.css
+│   └── js
+│       └── ghostion.js
+└── src
+    ├── framework
+    ├── js
+    │   ├── disqus.js
+    │   ├── fitvids.js
+    │   ├── ghosthunter.js
+    │   ├── google_analytics.js
+    │   ├── google_fonts.js
+    │   ├── highlight.js
+    │   └── init.js
+    └── scss
+        ├── bourbon
+        ├── fontawesome
+        ├── highlight
+        ├── theme
+        │   ├── _ghost.scss
+        │   ├── _style.scss
+        │   ├── _variables.scss
+        │   └── _widgets.scss
+        └── ghostion.scss
+</code></pre>
+
+<h6 id="_ghostscss">_ghost.scss</h6>
+
+<p>Contains all the styles for the Ghost core structure.</p>
+
+<h6 id="_stylescss">_style.scss</h6>
+
+<p>Contains all the styles for the theme core structure.</p>
+
+<h6 id="_variablesscss">_variables.scss</h6>
+
+<p>Contains all the variables including the base primary color, background color, etc.</p>
+
+<h6 id="_widgetscss">_widget.scss</h6>
+
+<p>Contains all the styles for Disqus, Search, and FitVids widgets.</p>
+
+<h4 id="2ghostionthemecommandlineusage">2. Ghostion Theme Command Line Usage</h4>
+
+<p>We are using <a href="http://gulpjs.com/">Gulp</a> as our task runner to watch and build the theme. With Gulp, it is not only easy to write tasks for, but also much easier to read and maintain. Gulp uses node.js streams, making it faster to build as it doesn’t need to write temporary files/folders to disk.</p>
+
+<p>The Gulp configuration file is written on <code>ghostion-master/gulpfile.js</code>. You can read more about getting started with Gulp <a href="http://markgoodyear.com/2014/01/getting-started-with-gulp/">here</a>.</p>
+
+<p>Let's start!</p>
+
+<p>1 - The command line script is located in the root of <code>ghostion-master</code> directory. In your terminal or command line app, type <code>sh ghostion.sh -h</code> or <code>sh ghostion.sh --help</code>. You will see the following in the screen.</p>
+
+<pre><code>sh ghostion.sh -i or sh ghostion.sh --install  
+Installing all necessary Gulp plugins required to develop Ghostion theme
+
+sh ghostion.sh -d or sh ghostion.sh --develop  
+Starting Ghostion theme development. Gulp will be watching scss and js file changes
+
+sh ghostion.sh -r or sh ghostion.sh --release  
+Releasing Ghostion theme, documentation, demobuilder, and source files
+
+sh ghostion.sh -h or sh ghostion.sh --help  
+Ghostion theme command line usage help overview  
+</code></pre>
+
+<p>2 - To start customizing the scss or JavaScript files, in your terminal or command line app, type <code>sh ghostion.sh -d</code> or <code>sh ghostion.sh --develop</code>.</p>
+
+<p>Now Gulp will be watching any scss and js files change and re-compile them each time any change is detected and saved.</p>
+
+<pre><code>$ sh ghostion.sh -d
+[AxianTheme] Starting Ghostion Development: Watching scss and js Files Change ...
+[gulp] Using file /ghostion-master/gulpfile.js
+[gulp] Working directory changed to /ghostion-master
+[gulp] Running 'develop'...
+[gulp] Running 'scss'...
+[gulp] Running 'concat'...
+[gulp] Running 'watch'...
+[gulp] Finished 'watch' in 53 ms
+[gulp] Finished 'develop' in 69 ms
+[gulp] Finished 'concat' in 1.73 s
+[gulp] Finished 'scss' in 3.94 s
+</code></pre>
+
+<p>The compiled files are located at <code>ghostion-master/dev/dest</code> directory, <strong>ghostion.css</strong> and <strong>ghostion.js</strong>. These files are full complete expanded codes and still not minified yet.</p>
+
+<p>3 - If you want to customize the Ghostion theme core files, go to <code>ghostion-master/packages/theme</code> directory. You will find all the theme files including <strong>index.hbs</strong>, <strong>default.hbs</strong>, and the <strong>partials</strong> files.</p>
+
+<p>For more information about Ghost core theme customization, please check the <a href="http://docs.ghost.org/themes/">Ghost Theme Documentation</a>.</p>
+
+<p>4 - After you finish your customization, now it's the time to build and release the package. In your terminal or command line app, press <code>cmd + c</code> or <code>ctrl + c (windows)</code>, and then type <code>sh ghostion.sh -d</code> or <code>sh ghostion.sh --develop</code>.</p>
+
+<pre><code>$ sh ghostion.sh -r
+[AxianTheme] Releasing Ghostion Theme Files
+[gulp] Using file /ghostion-master/gulpfile.js
+[gulp] Working directory changed to /ghostion-master
+[gulp] Running 'zip'...
+...
+...
+[gulp] Finished 'zip' in 827 ms
+[gulp] Running 'release'...
+[gulp] Running 'clean_releases'...
+[gulp] Finished 'clean_releases' in 903 μs
+[gulp] Running 'move_zip'...
+[gulp] Finished 'move_zip' in 1.51 ms
+[gulp] Running 'clean_tmp'...
+[gulp] Finished 'clean_tmp' in 469 μs
+[gulp] Finished 'release' in 4.99 ms
+[AxianTheme] Ghostion Theme Files Released Successfully
+</code></pre>
+
+<p><strong>ghostion.css</strong> and <strong>ghostion.js</strong> inside <code>ghostion-master/dev/dest</code> directory will be minified to <strong>ghostion.min.css</strong> and <strong>ghostion.min.js</strong> inside<code>ghostion-master/packages/themes/assets/css</code> and <code>ghostion-master/packages/themes/assets/js</code> directories.</p>
+
+<p>The DemoBuilder, Documentation, and the source files will be packaged and moved to <code>ghostion-master/releases</code> directory.</p>
+
+<pre><code>├── demobuilder
+│   └── ghostion_demobuilder.zip
+├── documentation
+│   └── ghostion_documentation.zip
+├── sources
+│   └── ghostion_sources.zip
+└── theme
+    └── ghostion.zip
+</code></pre>
+
+<p><strong>ghostion.zip</strong> file inside <code>ghostion-master/releases/theme</code> directory is your new customized Ghostion theme which is ready to unzipped and installed on your Ghost site.</p>
+
+<p>If you found a bug or have any questions not documented here, please send us an email at <a href="&#x6d;&#x61;&#x69;&#x6c;&#116;&#111;:&#x73;&#117;&#x70;&#x70;&#x6f;&#114;&#x74;&#x40;&#97;&#120;&#105;&#x61;&#x6e;&#116;&#x68;&#x65;&#x6d;&#101;&#46;&#x63;&#111;&#109;">&#x73;&#117;&#x70;&#x70;&#x6f;&#114;&#x74;&#x40;&#97;&#120;&#105;&#x61;&#x6e;&#116;&#x68;&#x65;&#x6d;&#101;&#46;&#x63;&#111;&#109;</a> or tweet us <a href="https://twitter.com/axiantheme">@axiantheme</a>. We will do our best to help you.</p>
+                    </div>
+                </article>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+
+<div id="at_footer">
+	<div class="row">
+		<div class="large-12 columns text-center">
+			<div class="at_block">
+				<div class="copyright">
+					<span>&copy; 2014 <a href="http://www.cloud.codeart.pro:2368/">Big Test</a> - Free Ghost Theme<br />Powered by <a href="http://foundation.zurb.com/">Foundation 5 Framework</a> and <a href="http://bourbon.io/">Bourbon Sass Mixins Library</a></span>
+				</div>
+				<div class="poweredby">
+					<span>Proudly published with <a class="icon-ghost" href="http://ghost.org">Ghost</a> and hosted by <a href="https://www.digitalocean.com/?refcode=3bb89a8961ff">DigitalOcean</a></span>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+        </div>
+    </div>
+
+    
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="assets/js/jquery-2.1.0.min.js"><\/script>')</script>
+
+    <script>
+        /*** CONFIGURATION VARIABLES: EDIT THE VALUES BELOW FOR THEME CONFIGURATION ***/
+        var ghostionConfig = {
+            site_url:                       "www.cloud.codeart.pro",
+            google_fonts_family:            "Open+Sans:400,400italic,700,700italic",
+            google_analytics_tracking_id:   "UA-45630355-2",
+            disqus_shortname:               "ghostion"
+        };
+    </script>
+    <script src="assets/js/ghostion.min.js"></script>
+</body>
+</html>
